@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    double x = pow(40,10);
+    double x = pow(80,10);
     double next = nextafter(x, INFINITY);
 
     printf("x      = %.17g\n", x);
